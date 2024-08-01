@@ -3,5 +3,6 @@ version: '2.17.3'
 services:
   web:
     build: .
+    image: web:latest
     ports:
       - "80:80"
